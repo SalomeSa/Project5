@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    padding: 12px 40px;
+    height: 94px;
+    background-color: black;
+}
+header h1{
+    width: 70px;
+    height: 70px;
+    background-image: url(../Icons/music-note.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-indent: -99999px;
+    float: left;
+}
+header h1 a{
+    display: block;
+}
+header nav{
+    margin-left: 168px;
+    margin-top: 25px;
+}
+header li{
+    float: left;
+    margin-right: 20px;
+}
+header li a{
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+main{
+    padding: 52px 0 100px 110px;
+    clear: both;
+}
+.social{
+    width: 50px;
+    height: 100px;
+    position: fixed;
+    top: 120;
+    right: 0;
+}
+.facebook, .instagram{
+    width: 50px;
+    height: 50px;
+    background-image: url(../Icons/fb.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.instagram{
+    background-image: url(../Icons/instagram.png);
+}
+
+h2{
+    font-size: 24px;
+}
+.clear{
+    clear: both;
+}
+article{
+    width: 300px;
+    margin-top: 50px;
+    float: left;
+    margin-right: 138px;
+    margin-bottom: 22px;
+}
+section{
+    width: 100%;
+    height: 244px;
+    border: 1px solid black;
+    background-image: url(../Icons/sound.png);
+    background-repeat: repeat-x;
+    background-size: 25%;
+    background-position-y: 58px;
+    position: relative;
+}
+section h3{
+    margin-top: 146px;
+    margin-left: 12px;
+    font-size: 18px;
+}
+section p{
+    margin-top: 14px;
+    margin-left: 12px;
+    font-size: 14px;
+}
+.like{
+    width: 50px;
+    height: 50px;
+    background-image: url(../Icons/like.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+article .link a{
+    font-size: 12px;
+    color: black;
+}
+
+article .link{
+    margin-top: 10px;
+}
+.latest{
+    clear: both;
+}
+footer{
+    clear: both;
+    padding: 28px 18px;
+    background-color: #000000;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    background-image: url(../Icons/music-note.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+}
+.logo a{
+    display: block;
+    width: 150px;
+    height: 150px;
+}
+footer nav{
+    margin-top: 28px;
+}
+footer ul{
+    width: 100%;
+    text-align: center;
+}
+footer li a{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+.rights{
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+/* PLAYLIST STYLE */
+
+.row1{
+  margin-top: -10px;
+}
+
+h4{
+    margin-bottom: 50px;
+    font-size: 24px;
+    color: #000000;
+}
+
+.music{
+    width: 260px;
+    height: 65px;
+    background-image: url(../Icons/sound.png);
+    background-repeat: repeat-x;
+    background-size: 25%;
+    margin: 300px auto 50px auto;
+}
+
+.music2{
+    width: 260px;
+    height: 65px;
+    background-image: url(../Icons/sound.png);
+    background-repeat: repeat-x;
+    background-size: 25%;
+    margin: 500px auto 50px auto;
+}
+
+h5{
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+    margin-top: 30px;
+}
+
